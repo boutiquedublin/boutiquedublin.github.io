@@ -1,0 +1,33 @@
+#container{
+    display: flex;
+    padding:10px 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.infobox{
+    min-width: 100px;
+    width: 22.5%;
+    background-color: antiquewhite;
+}
+.infobox h2{
+    color:darkgreen;
+    text-align: center;
+}
+.hotelimage{
+    margin:5px;
+}
+.hotelimage img{
+    max-width: 100%;
+}
+.infotext{
+    margin: 5px;
+    color:darkgreen;
+    text-indent: 20px;
+    text-align: justify;text-align-last: left;
+}
+
+#containerreviews{
+    margin: 10px 50px;
+    font-style: italic;
+}
